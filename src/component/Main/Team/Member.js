@@ -5,7 +5,7 @@ class Member extends Component{
     render(){
         return(
             <div className="member">
-                <img className="member-img" src={this.props.img}></img>
+                <a href="#" className="hvr-grow"><img className="member-img" src={this.props.img}></img></a>
                 <div className="member-name">{this.props.name}</div>
                 <div className="member-phone">{this.props.phone}</div>
                 <div className="sns-wrap">
