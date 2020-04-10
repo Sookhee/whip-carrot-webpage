@@ -1,30 +1,4 @@
 .quiz{
-    position: relative;
+    display: flex;
     align-items: flex-start;
-    .left{
-        width: 50%;
-        height: 640px;
-        position: absolute;
-        background-repeat: no-repeat;
-        background-image: url('../../img/quiz-backgronud.jpg');
-        background-size: contain;
-    }
-    
-    .right{
-        position: absolute;
-        left: 50%;
-        .question-wrap{
-            margin: 60px 0;
-        }
-
-        button{
-            width: 140px;
-            height: 50px;
-            background: #ffffff;
-            border: 2px solid orange;
-            border-radius: 200px;
-            margin-bottom: 80px;
-            margin-left: 340px;
-        }
-    }
 }

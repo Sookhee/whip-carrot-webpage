@@ -1,0 +1,12 @@
+.quiz-left{
+    position: fixed;
+    width: 50%;
+
+    .img{
+        width: 100%;
+        height: 600px;
+        background-image: url('../../img/main-backgronud.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

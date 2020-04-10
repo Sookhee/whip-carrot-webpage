@@ -1,0 +1,32 @@
+.quiz-right{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    width: 40%;
+    margin-left: 100px;
+
+    .wrap-quiz{
+        .title{
+            margin: 40px 0px 10px;
+            font-size: 22px;
+        }
+
+        .wrap-answer{
+            input[type="radio"]{
+                visibility:hidden;
+            }
+            label{
+                cursor: pointer;
+            }
+            input:checked + label {
+                color: orange;
+            }
+
+            div{
+                input{
+                    
+                }
+            }
+        }
+    }
+}
