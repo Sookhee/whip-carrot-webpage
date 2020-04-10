@@ -10,21 +10,21 @@ class Team extends Component{
             memberData: [
                 {
                     name: "김수경", 
-                    phone: "010-0000-0000",
+                    phone: "010-9396-2036",
                     github: "https://github.com/sugyeongKim",
-                    facebook: "",
+                    instagram: "https://www.instagram.com/su_gyeong47/",
                     img: "https://d3mcojo3jv0dbr.cloudfront.net/2017/08/23/00/56/9be74bc89d94469af8b687934e41fe4c.png?w=600&h=300&q=65"
                 }, {
                     name: "안지원", 
-                    phone: "010-0000-0000",
+                    phone: "010-7663-9705",
                     github: "https://github.com/jiwonan",
-                    facebook: "",
+                    instagram: "https://www.instagram.com/jeon1_31/",
                     img: "https://d3mcojo3jv0dbr.cloudfront.net/2017/08/23/00/56/9be74bc89d94469af8b687934e41fe4c.png?w=600&h=300&q=65"
                 }, {
                     name: "정민지", 
-                    phone: "010-0000-0000",
+                    phone: "010-4010-6613",
                     github: "https://github.com/Sookhee",
-                    facebook: "",
+                    instagram: "https://www.instagram.com/5ookhee/",
                     img: "https://d3mcojo3jv0dbr.cloudfront.net/2017/08/23/00/56/9be74bc89d94469af8b687934e41fe4c.png?w=600&h=300&q=65"
                 }
             ]
@@ -39,7 +39,7 @@ class Team extends Component{
                     return (<Member name={member.name}
                                     phone={member.phone}
                                     github={member.github}
-                                    facebook={member.facebook}
+                                    instagram={member.instagram}
                                     img={member.img}
                                     key={i} 
                         />);
