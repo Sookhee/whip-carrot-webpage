@@ -1,0 +1,31 @@
+.popup {  
+    position: fixed;  
+    width:1300px;
+    height:700px;
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 10%;  
+    margin: auto; 
+    z-index: 100;
+  }  
+  .popup\_inner {  
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: auto;  
+    border-radius: 20px;  
+    background: white;  
+  }
+
+  button{
+    position: absolute;
+    right:40px;
+    top:20px;
+  }
+
+
+
+  
