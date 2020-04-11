@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Route, NavLink} from 'react-router-dom';
 import './App.css';
+import Nav from './component/Nav/Nav';
 import Footer from './component/Footer/Footer';
 import Main from './component/Main/Main';
 import Collection from './component/Collection/Collection';
@@ -11,9 +12,7 @@ class App extends Component{
 
     return (
       <div className="app">
-        <div className="nav">
-          <NavLink to="/" className="home">채채당</NavLink>
-        </div>
+        <Route path="/" component={Nav}/>
         <Route path="/" component={Main} exact={true}/>
         <Route path="/collection" component={Collection}/>
         <Route path="/quiz" component={Quiz}/>
