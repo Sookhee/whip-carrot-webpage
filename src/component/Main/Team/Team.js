@@ -13,19 +13,19 @@ class Team extends Component{
                     phone: "010-9396-2036",
                     github: "https://github.com/sugyeongKim",
                     instagram: "https://www.instagram.com/su_gyeong47/",
-                    img: "https://d3mcojo3jv0dbr.cloudfront.net/2017/08/23/00/56/9be74bc89d94469af8b687934e41fe4c.png?w=600&h=300&q=65"
+                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/sugyeong.jpg?raw=true"
                 }, {
                     name: "안지원", 
                     phone: "010-7663-9705",
                     github: "https://github.com/jiwonan",
                     instagram: "https://www.instagram.com/jeon1_31/",
-                    img: "https://d3mcojo3jv0dbr.cloudfront.net/2017/08/23/00/56/9be74bc89d94469af8b687934e41fe4c.png?w=600&h=300&q=65"
+                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/jiwon.jpg?raw=true"
                 }, {
                     name: "정민지", 
                     phone: "010-4010-6613",
                     github: "https://github.com/Sookhee",
                     instagram: "https://www.instagram.com/5ookhee/",
-                    img: "https://d3mcojo3jv0dbr.cloudfront.net/2017/08/23/00/56/9be74bc89d94469af8b687934e41fe4c.png?w=600&h=300&q=65"
+                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/minji.jpg?raw=true"
                 }
             ]
         }
