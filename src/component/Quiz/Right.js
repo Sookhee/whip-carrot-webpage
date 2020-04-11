@@ -123,8 +123,7 @@ class Right extends Component{
                             <div><span>전화번호</span><input type="text" ref={(val) => this.phone = val}/></div>
                         </div>
                     </div>
-
-                    <button type="submit" className="quiz-button">제출</button>
+                    <input type="submit" value="퀴즈 제출하기" className="quiz-submit"/>
                 </form>
             </div>
         );
