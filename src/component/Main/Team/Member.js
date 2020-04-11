@@ -9,8 +9,8 @@ class Member extends Component{
                 <div className="member-name">{this.props.name}</div>
                 <div className="member-phone">{this.props.phone}</div>
                 <div className="sns-wrap">
-                    <a href={this.props.github}><div>Github</div></a>
-                    <a href={this.props.facebook}><div>Facebook</div></a>
+                    <a href={this.props.github} class="ir_pm git_ico_img"><div>Github</div></a>
+                    <a href={this.props.instagram} class="ir_pm insta_ico_img"><div>Instagram</div></a>
                 </div>
             </div>
         );
