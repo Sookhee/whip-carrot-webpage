@@ -1,0 +1,22 @@
+.nav {
+    position: relative;
+  }
+  
+  .navButton {
+    display: inline-block;
+    color: white;
+    background: rgb(255, 111, 16);
+    border-radius: 30px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 20px;
+  }
+
+  .Btndesign {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      padding: 20px;
+  }

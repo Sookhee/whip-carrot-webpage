@@ -16,27 +16,3 @@
   text-decoration: none;
   margin-left: 50px;
 }
-
-.nav {
-  position: relative;
-}
-
-.navButton {
-  display: inline-block;
-  color: white;
-  background: rgb(255, 111, 16);
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 30px;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  margin: 20px;
-  margin-right: 30px;
-}
-
-.mar {
-  margin-right: 100px;
-}
