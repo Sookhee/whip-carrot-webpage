@@ -6,7 +6,9 @@ class Carrot extends Component{
 
     constructor(props){
         super(props);
-        this.state = { showPopup: false };
+            this.state = {
+                showPopup: false
+            };
         }
       
         togglePopup() {
@@ -19,9 +21,8 @@ class Carrot extends Component{
         return(
             <div className="carrot" onClick={this.togglePopup.bind(this)}>
                 <div className="image"></div>
-                <h1>{this.props.img}</h1>
                 {this.state.showPopup ? 
-                    <Popup closePopup={this.togglePopup.bind(this)}/>  
+                    <Popup closePopup={this.togglePopup.bind(this)} name={this.props.name} img={this.props.img}/>  
                     : null
                 }{console.log(this)}
             </div>

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Route, NavLink} from 'react-router-dom';
 import './App.css';
 import Nav from './component/Nav/Nav';
+import Footer from './component/Footer/Footer';
 import Main from './component/Main/Main';
 import Collection from './component/Collection/Collection';
 import Quiz from './component/Quiz/Quiz';
@@ -15,6 +16,7 @@ class App extends Component{
         <Route path="/" component={Main} exact={true}/>
         <Route path="/collection" component={Collection}/>
         <Route path="/quiz" component={Quiz}/>
+        <Footer/>
       </div>
     );
   };

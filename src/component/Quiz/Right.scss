@@ -3,7 +3,7 @@
     top: 70px;
     left: 50%;
     width: 40%;
-    margin-left: 100px;
+    padding-left: 100px;
 
     .wrap-quiz{
         .title{
@@ -23,10 +23,25 @@
             }
 
             div{
-                input{
-                    
+                span{
+                    color: orange;
+                    display: inline-block;
+                    width: 100px;
+                }
+                input:focus{
+                    outline: none;
                 }
             }
         }
+    }
+
+    .quiz-submit{
+        width: 90%;
+        height: 50px;
+        margin-top: 40px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background: linear-gradient(97deg, rgba(9,100,115,1) 0%, rgba(255,88,16,1) 100%);
     }
 }
