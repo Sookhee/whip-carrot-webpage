@@ -2,16 +2,28 @@
     text-align: center;
     position: relative;
     &-img{
-        width: 240px;
-        height: 240px;
+        width: 300px;
+        height: 300px;
         background: orange;
         border-radius: 200px;
         margin-bottom: 20px;
     }
+    &-name {
+        font-family: "NotoSansCJKKr Medium";
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    &-phone {
+        font-family: "NotoSansCJKKr Regular";
+        font-size: 18px;
+        color: #777777;
+        margin-top: 5px;
+    }
+    margin: 0px 90px;
 }
 
 .ir_pm{display:block;overflow: hidden; line-height: 0; text-indent: -9999px;}
 .insta_ico_img {background:url(../../img/insta_logo.png) no-repeat; position: absolute;
-    left: 30%; top: 130%; width: 60px; height: 60px; transform: translate(-30%,-130%);}
+    left: 37%; top: 117%; width: 43px; height: 43px; transform: translate(-43%,-130%);}
 .git_ico_img {background:url(../../img/github_logo.png) no-repeat; position: absolute;
-    left: 70% ; top: 130%; width: 60px; height: 60px; transform: translate(-70%,-130%);}
+    left: 63% ; top: 115%; width: 33px; height: 33px; transform: translate(-70%,-130%);}
