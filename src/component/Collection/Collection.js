@@ -55,7 +55,9 @@ class Collection extends Component{
                 <Intro title="당근 도감" 
                        sub="퀴즈를 맞혀서 모은 당근들 어쩌구 볼 수 있는 도감입니다. 당근을 눌러 소개를 구경하세요? .. (문구 수정)"/>
                 <div className="title-color">
-                    <span className="f_color">C</span>o<span className="f_color">ll</span>e<span className="f_color">c</span>t <span className="f_color">Y</span>o<span className="f_color">u</span>r <span className="f_color"></span>Ca<span className="f_color">rr</span>o<span className="f_color">t</span>!</div>
+                    <span className="f_color">C</span>o<span className="f_color">ll</span>e<span className="f_color">c</span>t <span className="f_color">Y</span>o<span className="f_color">u</span>r <span className="f_color"></span>Ca<span className="f_color">rr</span>o<span className="f_color">t</span>!
+                   
+                    </div>
                     <div className="carrot-wrap">
                     {this.state.popData.map((carrot, i) => {
                     return (<Carrot name={carrot.name}

@@ -19,6 +19,7 @@ class Carrot extends Component{
        
     render(){
         return(
+        <div className="container">
             <div className="carrot" onClick={this.togglePopup.bind(this)}>
                 <img src={this.props.img}></img>
                 <h3>{this.props.name}</h3>
@@ -27,7 +28,7 @@ class Carrot extends Component{
                     : null
                 }{console.log(this)}
             </div>
-            
+        </div> 
         );
     };
 }

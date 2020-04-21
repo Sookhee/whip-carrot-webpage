@@ -1,11 +1,35 @@
-.carrot{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    margin-bottom: 50px;;
-    background: #fff;
-    border-radius: 20px;
+.container{
+    display: grid;
+    grid-template-rows: repeat(4, 75px);
+    grid-template-columns: repeat(4, 70px);
+    grid-auto-rows: 100px;
     text-align: center;
+    padding: 35px;
+
+    .carrot{
+        width: 280px;
+        height: 280px;
+        position: relative;
+        background: #fff;
+        border-radius: 20px;
+        text-align: center;
+        
+
+
+        &:hover:nth-child(1){background-color: #333;}
+        &:hover:nth-child(2){background-color: #444;}
+        &:hover:nth-child(3){background-color: #555;}
+        &:hover:nth-child(4){background-color: #666;}
+        &:hover:nth-child(5){background-color: #777;}
+        &:hover:nth-child(6){background-color: #888;}
+        &:hover:nth-child(7){background-color: #999;}
+        &:hover:nth-child(8){background-color: #aaa;}
+        &:hover:nth-child(9){background-color: #bbb;}
+        &:hover:nth-child(10){background-color: #ccc;}
+        &:hover:nth-child(11){background-color: #ddd;}
+        &:hover:nth-child(12){background-color: #eee;}
+    }  
+
     .image{
         width: 200px;
         height: 200px;
@@ -15,16 +39,4 @@
         margin-left: -100px;
         background: rgb(95, 81, 56);
     }
-    &:hover:nth-child(1){background-color: #333;}
-    &:hover:nth-child(2){background-color: #444;}
-    &:hover:nth-child(3){background-color: #555;}
-    &:hover:nth-child(4){background-color: #666;}
-    &:hover:nth-child(5){background-color: #777;}
-    &:hover:nth-child(6){background-color: #888;}
-    &:hover:nth-child(7){background-color: #999;}
-    &:hover:nth-child(8){background-color: #aaa;}
-    &:hover:nth-child(9){background-color: #bbb;}
-    &:hover:nth-child(10){background-color: #ccc;}
-    &:hover:nth-child(11){background-color: #ddd;}
-    &:hover:nth-child(12){background-color: #eee;}
 }

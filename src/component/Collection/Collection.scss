@@ -1,5 +1,5 @@
 .collection{
-    background: #e2e2e2;
+    //background: #e2e2e2;
     
     .f_color{
         color:#ff8448;
@@ -15,11 +15,16 @@
     }
 
     .carrot-wrap{
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
-        background: #cccccc;
+        //background: #cccccc;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    .title-carrot{
+        width:100px;
+        height:100px;
     }
 }
