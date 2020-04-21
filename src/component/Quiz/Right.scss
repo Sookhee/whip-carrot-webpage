@@ -1,47 +1,83 @@
 .quiz-right{
-    position: absolute;
-    top: 70px;
-    left: 50%;
-    width: 40%;
-    padding-left: 100px;
+    margin-left: 330px;
+    margin-right: 330px;
 
+    hr{margin: 60px 0 40px 0;}
     .wrap-quiz{
+        margin-top: 60px;
         .title{
-            margin: 40px 0px 10px;
-            font-size: 22px;
+            font-family: "NotoSansCJKKr Regular";
+            font-size: 24px;
+            color: #000000;
+            margin-bottom: 30px;
+            span{
+                font-family: "NotoSansCJKKr Medium";
+                font-size: 30px;
+            }
         }
 
         .wrap-answer{
             input[type="radio"]{
                 visibility:hidden;
+                margin-bottom: 10px;
             }
             label{
                 cursor: pointer;
+                font-family: "NotoSansCJKKr Regular";
+                font-size: 22px;
+                color: #000000;
+                margin-left: -16px;
             }
             input:checked + label {
                 color: orange;
             }
+        }
+    }
 
-            div{
-                span{
-                    color: orange;
-                    display: inline-block;
-                    width: 100px;
+    .wrap-info{
+        display: flex;
+        .wrap-input{
+            margin-right: 50px;
+            .title{
+                font-family: "NotoSansCJKKr Regular";
+                font-size: 24px;
+                color: #000000;
+                margin-bottom: 20px;
+            }
+            .input{
+                width: 350px;
+                height: 32px;
+                background: #f1f1f1;
+                border: none;
+                padding: 10px 0 0 10px;
+                &::placeholder{
+                    font-family: "NotoSansCJKKr Regular";
+                    font-size: 22px;
+                    color: #777777;
                 }
-                input:focus{
+                &:focus{
                     outline: none;
                 }
             }
         }
     }
 
-    .quiz-submit{
-        width: 90%;
-        height: 50px;
-        margin-top: 40px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        background: linear-gradient(97deg, rgba(9,100,115,1) 0%, rgba(255,88,16,1) 100%);
+    .wrap-button{
+        display: flex;
+        justify-content: flex-end;
+        .quiz-submit{
+            width: 236px;
+            height: 80px;
+            font-family: "NotoSansCJKKr Regular";
+            background: #ff8448;
+            border-radius: 10px;
+            border: none;
+            color: #ffffff;
+            margin-top: 100px;
+            margin-bottom: 180px;
+            &:focus{
+                outline: none;
+            }
+        }
     }
 }
