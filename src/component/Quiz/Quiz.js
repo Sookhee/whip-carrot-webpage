@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
 import './Quiz.scss';
-import Left from './Left';
-import Right from './Right';
+import Intro from '../Intro/Intro';
 
 class Quiz extends Component{
     render(){
         return(
             <div className="quiz">
-                <Left/>
-                <Right/>
+                <Intro/>
             </div>
         );
     };
