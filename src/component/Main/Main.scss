@@ -12,10 +12,12 @@
                 margin-left: 330px;
                 
                 .title_big {
+                    font-family: "NotoSansCJKKr Bold";
                     font-size: 36px;
                 }
 
                 .title_small {
+                    font-family: "NotoSansCJKKr Regular";
                     font-size: 16px;
                 }
             }
@@ -31,14 +33,20 @@
             .button-layout {
                 margin-left: 330px;
                 .button{
-                    width: 440px;
+                    font-family: "NotoSansCJKKr Medium";
+                    font-size: 18px;
+                    width: 150px;
                     height: 50px;
-                    border-radius: 50px;
-                    background: rgb(9,100,115);
-                    background: linear-gradient(97deg, rgba(9,100,115,1) 0%, rgba(255,88,16,1) 100%);
+                    border-radius: 10px;
                     text-align: center;
                     line-height: 50px;
-                    margin: 20px auto 0;
+                    border: 3px solid #ff8448;
+                    color: #000000;
+                }
+                .btn_design {
+                    background: #ff8448;
+                    color: #ffffff;
+                    margin-top: 20px;
                 }
             }
         }
