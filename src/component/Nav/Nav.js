@@ -5,12 +5,12 @@ import './Nav.css';
 class Nav extends Component {
     render() {
       return (
-        <div className="nav">
+        <div className="nav">  
             <NavLink to="/" className="home">채찍채찍 당근</NavLink>
               <div className="Btndesign">
-                <NavLink to="/quiz"><div className="navButton">퀴즈</div></NavLink>
-                <NavLink to="/collection"><div className="navButton">당근 도감</div></NavLink>
-                <NavLink to="/member"><div className="navButton">팀원 소개</div></NavLink>
+                <NavLink to="/quiz" activeStyle={{color:'#ff8448'}} className="navButton">퀴즈</NavLink>
+                <NavLink to="/collection" activeStyle={{color:'#ff8448'}} className="navButton">당근 도감</NavLink>
+                <NavLink to="/member" activeStyle={{color:'#ff8448'}} className="navButton">팀원 소개</NavLink>
               </div>
           </div>
       );

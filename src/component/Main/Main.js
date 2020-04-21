@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Main.scss';
-import Team from './Team/Team';
 
 class Main extends Component{
     render(){

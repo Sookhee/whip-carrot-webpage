@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {AppContext} from '../../Context';
-import Axios from 'axios';
 import './Quiz.scss';
 import Right from './Right';
 import Intro from '../Intro/Intro';

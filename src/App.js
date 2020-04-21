@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import {Route, NavLink} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import './App.css';
 import Nav from './component/Nav/Nav';
-import Footer from './component/Footer/Footer';
+// import Footer from './component/Footer/Footer';
 import Main from './component/Main/Main';
 import Collection from './component/Collection/Collection';
 import Quiz from './component/Quiz/Quiz';
-import Member from './component/Main/Team/Member';
-import Team from './component/Main/Team/Team';
+import Team from './component/Team/Team';
 
 class App extends Component{
   render(){

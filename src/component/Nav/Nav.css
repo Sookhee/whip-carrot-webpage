@@ -14,6 +14,7 @@
   font-family: "NotoSansCJKKr Regular";
   font-size: 18px;
   margin-left: 50px;
+  text-decoration: none;
 }
 
 .nav .home, .nav .home:visited, .nav .home:hover, .nav .home:active{

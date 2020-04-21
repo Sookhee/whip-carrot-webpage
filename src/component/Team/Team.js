@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Team.scss';
+import Intro from '../Intro/Intro';
 import Member from './Member'
 
 class Team extends Component{
@@ -34,17 +35,20 @@ class Team extends Component{
     render(){
         return(
             <div className="team">
-                {
-                this.state.memberData.map((member, i) => {
-                    return (<Member name={member.name}
-                                    phone={member.phone}
-                                    github={member.github}
-                                    instagram={member.instagram}
-                                    img={member.img}
-                                    key={i} 
-                        />);
-                    })
-                }
+                <Intro title="팀원 소개" sub="채채당 개발 및 디자인에 참가한 미림인들입니다"/>
+                <div className="wrap-member">
+                    {
+                    this.state.memberData.map((member, i) => {
+                        return (<Member name={member.name}
+                                        phone={member.phone}
+                                        github={member.github}
+                                        instagram={member.instagram}
+                                        img={member.img}
+                                        key={i} 
+                            />);
+                        })
+                    }
+                </div>
             </div>
         );
     };
