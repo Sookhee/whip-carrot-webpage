@@ -6,10 +6,12 @@
     display: inline-block;
     color: #000000;
     width: 70px;
+    height:27px;
     text-align: center;
-    line-height: 30px;
+    line-height: 27px;
     margin-right: 50px;
     font-family: "NotoSansCJKKr Regular";
+    font-size: 18px;
   }
 
   .Btndesign {
