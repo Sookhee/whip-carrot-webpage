@@ -6,6 +6,8 @@ import Footer from './component/Footer/Footer';
 import Main from './component/Main/Main';
 import Collection from './component/Collection/Collection';
 import Quiz from './component/Quiz/Quiz';
+import Member from './component/Main/Team/Member';
+import Team from './component/Main/Team/Team';
 
 class App extends Component{
   render(){
@@ -16,7 +18,8 @@ class App extends Component{
         <Route path="/" component={Main} exact={true}/>
         <Route path="/collection" component={Collection}/>
         <Route path="/quiz" component={Quiz}/>
-        <Footer/>
+        <Route path="/member" component={Team}/>
+        {/* <Footer/> */}
       </div>
     );
   };

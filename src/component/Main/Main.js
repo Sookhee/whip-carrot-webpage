@@ -9,9 +9,12 @@ class Main extends Component{
             <div className="main">
                 <div className="flex-wrap">
                     <div className="left">
-                        <div className="title">채찍채찍당근과 함께<br/>여러분의 전공 실력을 쑥쑥! 키워보세요 :D</div>
-                        <NavLink to="/quiz"><div className="button">퀴즈</div></NavLink>
-                        <NavLink to="/collection"><div className="button">도감</div></NavLink>
+                        <div className="title"><span className="title_big">채찍채찍 당근</span>
+                        <br/><span className="title_small">당근으로 여러분의 전공 실력을 키워보세요!</span></div>
+                        <div className="button-layout">
+                            <NavLink to="/quiz"><div className="button">퀴즈</div></NavLink>
+                            <NavLink to="/collection"><div className="button btn_design">당근 도감</div></NavLink>
+                        </div>
                     </div>
                     <div className="right">
                         <div className="backgronud-illustration">
@@ -20,7 +23,7 @@ class Main extends Component{
                     </div>
                 </div>
                 
-                <Team/>
+                {/* <Team/> */}
             </div>
         );
     };
