@@ -5,10 +5,19 @@
         align-items: center;
         .left{
             width: 50%;
+            margin-top: -150px;
             .title{
-                font-size: 28px;
-                text-align: center;
-                margin-bottom: 100px;
+                text-align: left;
+                margin-bottom: 30px;
+                margin-left: 330px;
+                
+                .title_big {
+                    font-size: 36px;
+                }
+
+                .title_small {
+                    font-size: 16px;
+                }
             }
 
             a{
@@ -19,16 +28,18 @@
                     font-size: 16px;
                 }
             }
-
-            .button{
-                width: 440px;
-                height: 50px;
-                border-radius: 50px;
-                background: rgb(9,100,115);
-                background: linear-gradient(97deg, rgba(9,100,115,1) 0%, rgba(255,88,16,1) 100%);
-                text-align: center;
-                line-height: 50px;
-                margin: 20px auto 0;
+            .button-layout {
+                margin-left: 330px;
+                .button{
+                    width: 440px;
+                    height: 50px;
+                    border-radius: 50px;
+                    background: rgb(9,100,115);
+                    background: linear-gradient(97deg, rgba(9,100,115,1) 0%, rgba(255,88,16,1) 100%);
+                    text-align: center;
+                    line-height: 50px;
+                    margin: 20px auto 0;
+                }
             }
         }
         .right{
