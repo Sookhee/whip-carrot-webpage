@@ -1,14 +1,65 @@
 .collection{
-    background: burlywood;
-    .title{
-        font-size: 28px;
+    background: #e2e2e2;
+    .header{
         text-align: center;
-        margin: 0 0 80px;
+    }
+    .hd_title{
+        display: inline;
+        width: 195px;
+        height: 74px;
+        font-family: "NotoSansCJKKr Medium";
+        font-size: 50px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.48;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--black);
+        margin-right: 20px;
+    }
+    
+    .f_color{
+        color:#ff8448;
+    }
+    
+    .hd_txt{
+        display: inline;
+        width: 674px;
+        height: 24px;
+        font-family: NotoSansKR;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #777777;
+    }
+    .title{
+        width: 100%;
+        height: 119px;
+        font-family: NotoSansKR;
+        font-size: 80px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.49;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--orangish);
+
+        //font-size: 28px;
+        //text-align: center;
+        //margin: 0 0 80px;
+        //font-family: "NotoSansCJKKr Bold";
+        
     }
     .carrot-wrap{
         width: 90%;
         margin: 0 auto;
-        background: cadetblue;
+        background: #cccccc;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
