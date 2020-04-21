@@ -14,7 +14,7 @@ class Team extends Component{
                     phone: "010-9396-2036",
                     github: "https://github.com/sugyeongKim",
                     instagram: "https://www.instagram.com/su_gyeong47/",
-                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/sugyeong.jpg?raw=true"
+                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/sugyeong.jpg"
                 }, {
                     name: "안지원", 
                     phone: "010-7663-9705",
@@ -23,6 +23,13 @@ class Team extends Component{
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/jiwon.jpg?raw=true"
                 }, {
                     name: "정민지", 
+                    phone: "010-4010-6613",
+                    github: "https://github.com/Sookhee",
+                    instagram: "https://www.instagram.com/5ookhee/",
+                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/minji.jpg?raw=true"
+                }
+                , {
+                    name: "서채원", 
                     phone: "010-4010-6613",
                     github: "https://github.com/Sookhee",
                     instagram: "https://www.instagram.com/5ookhee/",
