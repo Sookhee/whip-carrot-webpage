@@ -6,8 +6,8 @@ class Intro extends Component{
         return(
             <div className="intro">
                 <div className="wrap">
-                    <div className="title">퀴즈</div>
-                    <div className="sub">정답을 맞히신 분들께 추첨을 통해 선물을 드립니다!</div>
+                    <div className="title">{this.props.title}</div>
+                    <div className="sub">{this.props.sub}</div>
                 </div>
                 <hr/>
             </div>
