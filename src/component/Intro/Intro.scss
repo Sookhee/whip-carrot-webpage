@@ -1,0 +1,29 @@
+.intro{
+    margin: 100px 330px 0;
+    box-sizing: border-box;
+    
+    .wrap{
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 20px;
+        .title{
+            font-family: "NotoSansCJKKr Medium";
+            font-size: 50px;
+            color: #000000;
+        }
+        .sub{
+            font-family: "NotoSansCJKKr Regular";
+            font-size: 16px;
+            color: #777777;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    hr{
+        width: 100%;
+        height: 1px;
+        background: #000000;
+        border: 0;
+    }
+    
+}

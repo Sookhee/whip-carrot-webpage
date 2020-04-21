@@ -52,8 +52,6 @@ class Right extends Component{
         .catch(function (error) {
             alert("error : " + error);
         });
-        alert('click!');
-        console.log('You have selected: \n' + this.state.quiz1 + "\n" + this.state.quiz2 + "\n" + this.state.quiz3 + "\n" + this.state.quiz4 + "\n" + this.state.quiz5 + "\n" + this.name.value + "\n" + this.phone.value);
     }
 
     render(){
@@ -61,7 +59,7 @@ class Right extends Component{
             <div className="quiz-right">
                 <form onSubmit={this.insertQuiz}>
                     <div className="wrap-quiz">
-                        <div className="title">Q1. 어쩌고저쩌고</div>
+                        <div className="title"><span>Q1.</span> 어쩌고저쩌고</div>
                         <div className="wrap-answer">
                             <input type='radio' value='1-1' name='q1' id='radio1-1' onChange={this.handleOptionChangeQuiz1}/>
                             <label htmlFor='radio1-1'>Value 1</label><br/>
@@ -71,8 +69,9 @@ class Right extends Component{
                             <label htmlFor='radio1-3'>Value 3</label><br/>
                         </div>
                     </div>
+
                     <div className="wrap-quiz">
-                        <div className="title">Q2. 어쩌고저쩌고</div>
+                        <div className="title"><span>Q2.</span> 어쩌고저쩌고</div>
                         <div className="wrap-answer">
                             <input type='radio' value='2-1' name='q2' id='radio2-1' onChange={this.handleOptionChangeQuiz2}/>
                             <label htmlFor='radio2-1'>Value 1</label><br/>
@@ -82,8 +81,9 @@ class Right extends Component{
                             <label htmlFor='radio2-3'>Value 3</label><br/>
                         </div>
                     </div>
+
                     <div className="wrap-quiz">
-                        <div className="title">Q3. 어쩌고저쩌고</div>
+                        <div className="title"><span>Q1.</span> 어쩌고저쩌고</div>
                         <div className="wrap-answer">
                             <input type='radio' value='3-1' name='q3' id='radio3-1' onChange={this.handleOptionChangeQuiz3}/>
                             <label htmlFor='radio3-1'>Value 1</label><br/>
@@ -93,8 +93,9 @@ class Right extends Component{
                             <label htmlFor='radio3-3'>Value 3</label><br/>
                         </div>
                     </div>
+
                     <div className="wrap-quiz">
-                        <div className="title">Q4. 어쩌고저쩌고</div>
+                        <div className="title"><span>Q1.</span> 어쩌고저쩌고</div>
                         <div className="wrap-answer">
                             <input type='radio' value='4-1' name='q4' id='radio4-1' onChange={this.handleOptionChangeQuiz4}/>
                             <label htmlFor='radio4-1'>Value 1</label><br/>
@@ -104,8 +105,9 @@ class Right extends Component{
                             <label htmlFor='radio4-3'>Value 3</label><br/>
                         </div>
                     </div>
+
                     <div className="wrap-quiz">
-                        <div className="title">Q5. 어쩌고저쩌고</div>
+                        <div className="title"><span>Q1.</span> 어쩌고저쩌고</div>
                         <div className="wrap-answer">
                             <input type='radio' value='5-1' name='q5' id='radio5-1' onChange={this.handleOptionChangeQuiz5}/>
                             <label htmlFor='radio5-1'>Value 1</label><br/>
@@ -115,15 +117,22 @@ class Right extends Component{
                             <label htmlFor='radio5-3'>Value 3</label><br/>
                         </div>
                     </div>
-                    
-                    <div className="wrap-quiz">
-                        <div className="title">이벤트를 위한 정보 입력입니다</div>
-                        <div className="wrap-answer">
-                            <div><span>이름</span><input type="text" ref={(val) => this.name = val}/></div>
-                            <div><span>전화번호</span><input type="text" ref={(val) => this.phone = val}/></div>
+
+                    <hr/>
+
+                    <div className="wrap-info">
+                        <div className="wrap-input">
+                            <div className="title">전화번호</div>
+                            <input className="input" type="text" name="phone" placeholder="전화번호를 적어주세요." ref={(val) => this.phone = val}></input>
+                        </div>
+                        <div className="wrap-input">
+                            <div className="title">이름</div>
+                            <input className="input" type="text" name="name" placeholder="이름을 적어주세요." ref={(val) => this.name = val}></input>
                         </div>
                     </div>
-                    <input type="submit" value="퀴즈 제출하기" className="quiz-submit"/>
+                    <div className="wrap-button">
+                        <input type="submit" value="퀴즈 제출하기" className="quiz-submit"/>
+                    </div>
                 </form>
             </div>
         );
