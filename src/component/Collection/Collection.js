@@ -50,15 +50,9 @@ class Collection extends Component{
                     name: "carrot10",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot10.png?raw=true",
                     detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
-                }, {
-                    name: "carrot11",
-                    img: "https://www.simbata.co.kr/img_src/s600/b016/b0160614.jpg",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
-                }, {
-                    name: "carrot12",
-                    img: "https://www.simbata.co.kr/img_src/s600/b016/b0161391.jpg",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
-                }
+                },
+                {},
+                {}
             ]
         }
     }
@@ -73,13 +67,24 @@ class Collection extends Component{
                     </div>
                     <div className="carrot-wrap">
                     {this.state.popData.map((carrot, i) => {
-                    return (<Carrot name={carrot.name}
-                                    img={carrot.img}
-                                    detail={carrot.detail}
-                                    key={i} 
-                        />);
+                    return (
+                        carrot.name == null ?
+                        (
+                            <div className="empty"></div>
+                        )
+                        :
+                        (
+                            <Carrot name={carrot.name}
+                                img={carrot.img}
+                                detail={carrot.detail}
+                                key={i} 
+                            />
+                        )
+                        );
                     })
                 }
+
+                
                 </div>
             </div>
         );

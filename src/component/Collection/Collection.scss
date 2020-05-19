@@ -1,6 +1,5 @@
 .collection{
-    //background: #e2e2e2;
-    
+
     .f_color{
         color:#ff8448;
     }
@@ -9,22 +8,24 @@
         width: 100%;
         margin: 100px 0 100px 0;
         font-family: "NotoSansCJKKr Bold";
-        font-size: 80px;
+        font-size: 70px;
         text-align: center;
         color: var(--orangish);        
     }
 
     .carrot-wrap{
-        width: 80%;
+        padding: 0 200px;
         margin: 0 auto;
-        //background: #cccccc;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    .title-carrot{
-        width:100px;
-        height:100px;
+    .empty{
+        width: 240px;
+        height: 240px;
+        border-radius: 30px;
+        background: #f1f1f1;
+
     }
 }

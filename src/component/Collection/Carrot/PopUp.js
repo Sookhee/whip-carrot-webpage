@@ -9,17 +9,16 @@ class Popup extends Component{
     return (  
         <div className='popup'>  
             <div className='popup inner'>
-                <button onClick={this.props.closePopup}>X</button>
+                <button onClick={this.props.closePopup} className="cancel-button">X</button>
 
-                <div className="leftback">
+                <div className="leftback" style={{background: "yellow"}}>
                     <img className="carrotimg" src={this.props.img} alt=""/>
                 </div>
 
                 <div className="rightback">
                     <h1 className="detail_title">{this.props.name}</h1>
-                    <span className="detail">{this.props.detail}</span>
+                    <span className="detail_content">{this.props.detail}</span>
                 </div>
-                {console.log(this)}
             </div>  
         </div>  
         );  
