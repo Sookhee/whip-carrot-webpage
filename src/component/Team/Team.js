@@ -27,6 +27,12 @@ class Team extends Component{
                     github: "https://github.com/Sookhee",
                     instagram: "https://www.instagram.com/5ookhee/",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/minji.jpg?raw=true"
+                },{
+                    name: "정민지", 
+                    phone: "010-4010-6613",
+                    github: "https://github.com/Sookhee",
+                    instagram: "https://www.instagram.com/5ookhee/",
+                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/minji.jpg?raw=true"
                 }
             ]
         }
