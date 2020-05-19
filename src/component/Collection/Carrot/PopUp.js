@@ -9,9 +9,9 @@ class Popup extends Component{
     return (  
         <div className='popup'>  
             <div className='popup inner'>
-                <button onClick={this.props.closePopup} className="cancel-button">X</button>
+                <div onClick={this.props.closePopup} className="cancel-button"></div>
 
-                <div className="leftback" style={{background: "yellow"}}>
+                <div className="leftback" style={{background: this.props.color}}>
                     <img className="carrotimg" src={this.props.img} alt=""/>
                 </div>
 

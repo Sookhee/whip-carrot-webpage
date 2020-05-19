@@ -12,44 +12,53 @@ class Collection extends Component{
                 {
                     name: "carrot1",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot1.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
-
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot2",
                     img:"https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot2.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot3",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot3.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot4",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot4.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot5",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot5.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot6",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot6.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot7",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot7.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot8",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot8.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot9",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot9.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 }, {
                     name: "carrot10",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot10.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)"
+                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    color: "#fff955"
                 },
                 {},
                 {}
@@ -77,6 +86,7 @@ class Collection extends Component{
                             <Carrot name={carrot.name}
                                 img={carrot.img}
                                 detail={carrot.detail}
+                                color={carrot.color}
                                 key={i} 
                             />
                         )

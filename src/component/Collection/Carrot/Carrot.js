@@ -24,9 +24,9 @@ class Carrot extends Component{
                 <img src={this.props.img} className="carrot-item-img"></img>
                 {/* <h3>{this.props.name}</h3> */}
                 {this.state.showPopup ? 
-                    <Popup closePopup={this.togglePopup.bind(this)} name={this.props.name} img={this.props.img} detail={this.props.detail}/>  
+                    <Popup closePopup={this.togglePopup.bind(this)} name={this.props.name} img={this.props.img} detail={this.props.detail} color={this.props.color}/>  
                     : null
-                }{console.log(this)}
+                }
             </div>
         </div> 
         );
