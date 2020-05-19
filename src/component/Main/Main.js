@@ -6,23 +6,13 @@ class Main extends Component{
     render(){
         return(
             <div className="main">
-                <div className="flex-wrap">
-                    <div className="left">
-                        <div className="title"><span className="title_big">채찍채찍 당근</span>
-                        <br/><span className="title_small">당근으로 여러분의 전공 실력을 키워보세요!</span></div>
-                        <div className="button-layout">
-                            <NavLink to="/quiz"><div className="button">퀴즈</div></NavLink>
-                            <NavLink to="/collection"><div className="button btn_design">당근 도감</div></NavLink>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <div className="backgronud-illustration">
-                
-                        </div>
-                    </div>
+                <div className="background"></div>
+                <div className="content">
+                    <div className="title">채찍채찍 당근</div>
+                    <div className="sub-title">귀여운 당근 친구들과 함께 여러분의 전공 실력을 키워보세요!</div>
+                    <NavLink to="/collection" className="main-button collection">당근 도감</NavLink>
+                    <NavLink to="/quiz" className="main-button quiz">퀴즈</NavLink>
                 </div>
-                
-                {/* <Team/> */}
             </div>
         );
     };
