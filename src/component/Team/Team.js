@@ -14,7 +14,7 @@ class Team extends Component{
                     phone: "010-9396-2036",
                     github: "https://github.com/sugyeongKim",
                     instagram: "https://www.instagram.com/su_gyeong47/",
-                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/sugyeong.jpg"
+                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/sugyeong.jpg?raw=true"
                 }, {
                     name: "안지원", 
                     phone: "010-7663-9705",
