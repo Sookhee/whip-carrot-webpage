@@ -1,10 +1,14 @@
 .nav {
+  width: 100%;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  padding: 0 330px 0;
+  padding: 0 200px 0;
   box-sizing: border-box;
+  background: #ffffff;
+  border-bottom: 1px solid #ff8448;
 }
 
 .navButton {
