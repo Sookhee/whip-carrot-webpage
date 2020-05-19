@@ -131,7 +131,7 @@ class Right extends Component{
                         </div>
                     </div>
                     <div className="wrap-button">
-                        <input type="submit" value="퀴즈 제출하기" className="quiz-submit"/>
+                        <input type="submit" value="제출하기" className="quiz-submit"/>
                     </div>
                 </form>
             </div>

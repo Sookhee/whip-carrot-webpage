@@ -19,15 +19,16 @@ class Carrot extends Component{
        
     render(){
         return(
+        <div className="container">
             <div className="carrot" onClick={this.togglePopup.bind(this)}>
                 <img src={this.props.img}></img>
                 <h3>{this.props.name}</h3>
                 {this.state.showPopup ? 
-                    <Popup closePopup={this.togglePopup.bind(this)} name={this.props.name} img={this.props.img}/>  
+                    <Popup closePopup={this.togglePopup.bind(this)} name={this.props.name} img={this.props.img} detail={this.props.detail}/>  
                     : null
                 }{console.log(this)}
             </div>
-            
+        </div> 
         );
     };
 }

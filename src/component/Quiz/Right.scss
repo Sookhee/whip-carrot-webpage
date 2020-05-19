@@ -1,18 +1,16 @@
 .quiz-right{
-    margin-left: 330px;
-    margin-right: 330px;
-
+    margin: 0 200px 0;
     hr{margin: 60px 0 40px 0;}
     .wrap-quiz{
         margin-top: 60px;
         .title{
             font-family: "NotoSansCJKKr Regular";
-            font-size: 24px;
+            font-size: 20px;
             color: #000000;
             margin-bottom: 30px;
             span{
                 font-family: "NotoSansCJKKr Medium";
-                font-size: 30px;
+                font-size: 26px;
             }
         }
 
@@ -24,7 +22,7 @@
             label{
                 cursor: pointer;
                 font-family: "NotoSansCJKKr Regular";
-                font-size: 22px;
+                font-size: 20px;
                 color: #000000;
                 margin-left: -16px;
             }
@@ -40,20 +38,24 @@
             margin-right: 50px;
             .title{
                 font-family: "NotoSansCJKKr Regular";
-                font-size: 24px;
+                font-size: 22px;
                 color: #000000;
                 margin-bottom: 20px;
             }
             .input{
-                width: 350px;
-                height: 32px;
+                width: 280px;
+                height: 30px;
                 background: #f1f1f1;
                 border: none;
-                padding: 10px 0 0 10px;
+                padding: 7px 7px 5px 10px;
+                font-family: "NotoSansCJKKr Regular";
+                font-size: 16px;
+                color: #000000;
                 &::placeholder{
                     font-family: "NotoSansCJKKr Regular";
-                    font-size: 22px;
+                    font-size: 16px;
                     color: #777777;
+                    
                 }
                 &:focus{
                     outline: none;
@@ -64,11 +66,12 @@
 
     .wrap-button{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         .quiz-submit{
-            width: 236px;
-            height: 80px;
-            font-family: "NotoSansCJKKr Regular";
+            width: 180px;
+            height: 60px;
+            font-family: "NotoSansCJKKr Medium";
+            font-size: 18px;
             background: #ff8448;
             border-radius: 10px;
             border: none;
