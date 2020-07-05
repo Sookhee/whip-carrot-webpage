@@ -10,54 +10,54 @@ class Collection extends Component{
         this.state = {
             popData: [
                 {
-                    name: "carrot1",
+                    name: "기본 당근",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot1.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "전형적인 당근. 깨끗하게 세척이 되어있다.",
                     color: "#fff955"
                 }, {
-                    name: "carrot2",
+                    name: "미림 당근",
                     img:"https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot2.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "밤새 과제하다 썩어버린 우리의 모습.",
                     color: "#fff955"
                 }, {
-                    name: "carrot3",
+                    name: "락앤롤 당근",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot3.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "ROCK이 아닌 즐거울 락 樂 ",
                     color: "#fff955"
                 }, {
-                    name: "carrot4",
+                    name: "소민지",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot4.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "당근이 되어버린 3107 소민지쿤;;",
                     color: "#fff955"
                 }, {
-                    name: "carrot5",
+                    name: "스프링 당근",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot5.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "@ : 여러분.. 대답 좀 해주세요.. 복습 좀 하시구요",
                     color: "#fff955"
                 }, {
-                    name: "carrot6",
+                    name: "이연우",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot6.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "큐티보쨕 넘 귀엽당ㅎㅎㅎㅎ",
                     color: "#fff955"
                 }, {
-                    name: "carrot7",
+                    name: "꽐라 당근",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot7.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "6개월 뒤 우리의 모습.",
                     color: "#fff955"
                 }, {
-                    name: "carrot8",
+                    name: "짜르 당근",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot8.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "짜잔~ 최영진 선생님 안녕하세요, 깜짝 이벤트 입니다.",
                     color: "#fff955"
                 }, {
-                    name: "carrot9",
+                    name: "근당",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot9.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: ".다니합영환 을것 신오 에쇼티이아 ,요세하녕안",
                     color: "#fff955"
                 }, {
-                    name: "carrot10",
+                    name: "찵싹~",
                     img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/carrot10.png?raw=true",
-                    detail: "미림당근은 미림마이스터고를 다니다가 실성해서 넥타이를 머리에 두르고 난동을 부리는 중이다. 어쩌구저쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구어쩌구 (문구 수정)",
+                    detail: "챱챱챱챱챱챱챱챱츄릅츄릅챱챱챱",
                     color: "#fff955"
                 },
                 {},
