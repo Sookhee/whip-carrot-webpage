@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3910ec30c68763fefeb3462f84c29e27",
+    "revision": "a2832a0b7617217e5969bb3f7b890d8b",
     "url": "/whip-carrot-webpage/index.html"
   },
   {
-    "revision": "6975b6ec8292b75fdb91",
+    "revision": "1262e9175b5a724e5db9",
     "url": "/whip-carrot-webpage/static/css/main.1581cf7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whip-carrot-webpage/static/js/2.7f9bbeb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6975b6ec8292b75fdb91",
-    "url": "/whip-carrot-webpage/static/js/main.c1dfcffd.chunk.js"
+    "revision": "1262e9175b5a724e5db9",
+    "url": "/whip-carrot-webpage/static/js/main.17160fd8.chunk.js"
   },
   {
     "revision": "c345a9a70d859fe9a979",

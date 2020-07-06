@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whip-carrot-webpage/precache-manifest.59d89112918b43b22143aa06e54e1d55.js"
+  "/whip-carrot-webpage/precache-manifest.2ba574d1cc897e3866d6bffcb1e9605f.js"
 );
 
 self.addEventListener('message', (event) => {
