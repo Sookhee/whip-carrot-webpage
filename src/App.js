@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
 import './App.css';
 import Nav from './component/Nav/Nav';
-// import Footer from './component/Footer/Footer';
+import Footer from './component/Footer/Footer';
 import Main from './component/Main/Main';
 import Collection from './component/Collection/Collection';
 import Quiz from './component/Quiz/Quiz';
@@ -18,7 +18,7 @@ class App extends Component{
         <Route path="/collection" component={Collection}/>
         <Route path="/quiz" component={Quiz}/>
         <Route path="/member" component={Team}/>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     );
   };

@@ -3,6 +3,11 @@ import './Team.scss';
 import Intro from '../Intro/Intro';
 import Member from './Member'
 
+import Member1 from '../../img/sugyeong.jpg';
+import Member2 from '../../img/jiwon.jpg';
+import Member3 from '../../img/minji.jpg';
+import Member4 from '../../img/chewon.jpg';
+
 class Team extends Component{
 
     constructor(props){
@@ -16,7 +21,7 @@ class Team extends Component{
                     github: "https://github.com/sugyeongKim",
                     instagram: "https://www.instagram.com/su_gyeong47/",
                     facebook: "https://www.facebook.com/profile.php?id=100024603741653",
-                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/sugyeong.jpg?raw=true"
+                    img: Member1,
                 }, {
                     name: "안지원", 
                     major: "뉴미디어 소프트웨어과",
@@ -24,7 +29,7 @@ class Team extends Component{
                     github: "https://github.com/jiwonan",
                     instagram: "https://www.instagram.com/jeon1_31/",
                     facebook: "https://www.facebook.com/Anjiwon1",
-                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/jiwon.jpg?raw=true"
+                    img: Member2,
                 }, {
                     name: "정민지", 
                     major: "뉴미디어 소프트웨어과",
@@ -32,13 +37,13 @@ class Team extends Component{
                     github: "https://github.com/Sookhee",
                     instagram: "https://www.instagram.com/5ookhee/",
                     facebook: "https://www.facebook.com/MinjiJeong02",
-                    img: "https://github.com/Sookhee/whip-carrot-webpage/blob/master/src/img/minji.jpg?raw=true"
+                    img: Member3,
                 }, {
                     name: "서채원", 
                     major: "뉴미디어 디자인과",
                     phone: "010-8833-6746",
                     facebook: "https://www.facebook.com/profile.php?id=100009601390266",
-                    img: "https://github.com/Sookhee/AppandMe-Website2020/blob/master/src/img/%EC%84%9C%EC%B1%84%EC%9B%90.jpg?raw=true"
+                    img: Member4,
                 }
             ]
         }

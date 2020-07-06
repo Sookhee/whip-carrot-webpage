@@ -4,6 +4,8 @@
     &-img{
         width: 220px;
         height: 220px;
+        background-size: contain;
+        background-repeat: no-repeat;
         border-radius: 200px;
         margin-bottom: 10px;
     }

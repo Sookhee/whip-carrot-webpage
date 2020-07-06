@@ -1,5 +1,13 @@
 .footer{
     width: 100%;
-    height: 200px;
-    background: orange;
+    height: 60px;
+    background: #4a3923;
+    clear: both;
+
+    .footer-text{
+        text-align: center;
+        line-height: 60px;
+        color: #ffffff;
+        font-size: 13px;
+    }
 }

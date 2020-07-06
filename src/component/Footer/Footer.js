@@ -5,7 +5,9 @@ class Footer extends Component{
     render(){
         return(
             <div className="footer">
-                Footer입니당^-^
+                <div className="footer-text">
+                    &copy; MIRIM GIRLS' INFORMATION SCIENCE HIGH SCHOOL
+                </div>
             </div>
         );
     };

@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
     <StrictMode>
         <ParallaxProvider>
-            <BrowserRouter basename="/">
+            <BrowserRouter basename="/whip-carrot-webpage">
                 <App/>
             </BrowserRouter>
         </ParallaxProvider>

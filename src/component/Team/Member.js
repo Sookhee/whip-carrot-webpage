@@ -6,7 +6,7 @@ class Member extends Component{
         return(
             <div className="member">
                 
-                <img className="member-img hvr-grow" src={this.props.img}></img>
+                <div className="member-img hvr-grow" style={{backgroundImage: `url(${this.props.img})`}}></div>
                 <div className="member-name">{this.props.name}</div>
                 <div className="member-phone">{this.props.major}</div>
                 <div className="member-phone">{this.props.phone}</div>

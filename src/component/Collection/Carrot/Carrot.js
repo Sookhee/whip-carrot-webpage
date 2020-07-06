@@ -16,12 +16,12 @@ class Carrot extends Component{
            showPopup: !this.state.showPopup
          });
        }
-       
+        
     render(){
         return(
         <div className="container">
             <div className="carrot" onClick={this.togglePopup.bind(this)}>
-                <img src={this.props.img} className="carrot-item-img"></img>
+                <div style={{backgroundImage: `url(${this.props.img})`}} className="carrot-item-img hvr-float-shadow hvr-buzz-out"></div>
                 {/* <h3>{this.props.name}</h3> */}
                 {this.state.showPopup ? 
                     <Popup closePopup={this.togglePopup.bind(this)} name={this.props.name} img={this.props.img} detail={this.props.detail} color={this.props.color}/>  
