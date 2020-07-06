@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/whip-carrot-webpage/static/css/main.c20505ce.chunk.css",
-    "main.js": "/whip-carrot-webpage/static/js/main.ef773709.chunk.js",
-    "main.js.map": "/whip-carrot-webpage/static/js/main.ef773709.chunk.js.map",
+    "main.css": "/whip-carrot-webpage/static/css/main.1581cf7e.chunk.css",
+    "main.js": "/whip-carrot-webpage/static/js/main.c1dfcffd.chunk.js",
+    "main.js.map": "/whip-carrot-webpage/static/js/main.c1dfcffd.chunk.js.map",
     "runtime-main.js": "/whip-carrot-webpage/static/js/runtime-main.5088a335.js",
     "runtime-main.js.map": "/whip-carrot-webpage/static/js/runtime-main.5088a335.js.map",
-    "static/js/2.cbc27e71.chunk.js": "/whip-carrot-webpage/static/js/2.cbc27e71.chunk.js",
-    "static/js/2.cbc27e71.chunk.js.map": "/whip-carrot-webpage/static/js/2.cbc27e71.chunk.js.map",
+    "static/js/2.7f9bbeb8.chunk.js": "/whip-carrot-webpage/static/js/2.7f9bbeb8.chunk.js",
+    "static/js/2.7f9bbeb8.chunk.js.map": "/whip-carrot-webpage/static/js/2.7f9bbeb8.chunk.js.map",
     "index.html": "/whip-carrot-webpage/index.html",
-    "precache-manifest.1f82faa882d3c4592c9b9e90762ec1d2.js": "/whip-carrot-webpage/precache-manifest.1f82faa882d3c4592c9b9e90762ec1d2.js",
+    "precache-manifest.59d89112918b43b22143aa06e54e1d55.js": "/whip-carrot-webpage/precache-manifest.59d89112918b43b22143aa06e54e1d55.js",
     "service-worker.js": "/whip-carrot-webpage/service-worker.js",
-    "static/css/main.c20505ce.chunk.css.map": "/whip-carrot-webpage/static/css/main.c20505ce.chunk.css.map",
-    "static/js/2.cbc27e71.chunk.js.LICENSE.txt": "/whip-carrot-webpage/static/js/2.cbc27e71.chunk.js.LICENSE.txt",
+    "static/css/main.1581cf7e.chunk.css.map": "/whip-carrot-webpage/static/css/main.1581cf7e.chunk.css.map",
+    "static/js/2.7f9bbeb8.chunk.js.LICENSE.txt": "/whip-carrot-webpage/static/js/2.7f9bbeb8.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/whip-carrot-webpage/static/media/NotoSansCJKkr-Regular.19b7d8d4.otf",
     "static/media/carrot1.png": "/whip-carrot-webpage/static/media/carrot1.d7f5b6af.png",
     "static/media/carrot10.png": "/whip-carrot-webpage/static/media/carrot10.e64faa0f.png",
     "static/media/Right.scss": "/whip-carrot-webpage/static/media/carrot9.ec7274ed.png",
     "static/media/carrot7.png": "/whip-carrot-webpage/static/media/carrot7.9f4d29a6.png",
+    "static/media/chewon.jpg": "/whip-carrot-webpage/static/media/chewon.a895afc9.jpg",
     "static/media/jiwon.jpg": "/whip-carrot-webpage/static/media/jiwon.f325dd91.jpg",
     "static/media/Main.scss": "/whip-carrot-webpage/static/media/main-backgronud.2fa96c39.png",
     "static/media/minji.jpg": "/whip-carrot-webpage/static/media/minji.cf25a35a.jpg",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5088a335.js",
-    "static/js/2.cbc27e71.chunk.js",
-    "static/css/main.c20505ce.chunk.css",
-    "static/js/main.ef773709.chunk.js"
+    "static/js/2.7f9bbeb8.chunk.js",
+    "static/css/main.1581cf7e.chunk.css",
+    "static/js/main.c1dfcffd.chunk.js"
   ]
 }

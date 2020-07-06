@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f830526a9b1f66fb43614230f82618e",
+    "revision": "3910ec30c68763fefeb3462f84c29e27",
     "url": "/whip-carrot-webpage/index.html"
   },
   {
-    "revision": "87f665ca488419b85ad4",
-    "url": "/whip-carrot-webpage/static/css/main.c20505ce.chunk.css"
+    "revision": "6975b6ec8292b75fdb91",
+    "url": "/whip-carrot-webpage/static/css/main.1581cf7e.chunk.css"
   },
   {
-    "revision": "bcac44b00446073e0938",
-    "url": "/whip-carrot-webpage/static/js/2.cbc27e71.chunk.js"
+    "revision": "54d3d0bcda655a91855a",
+    "url": "/whip-carrot-webpage/static/js/2.7f9bbeb8.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/whip-carrot-webpage/static/js/2.cbc27e71.chunk.js.LICENSE.txt"
+    "url": "/whip-carrot-webpage/static/js/2.7f9bbeb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87f665ca488419b85ad4",
-    "url": "/whip-carrot-webpage/static/js/main.ef773709.chunk.js"
+    "revision": "6975b6ec8292b75fdb91",
+    "url": "/whip-carrot-webpage/static/js/main.c1dfcffd.chunk.js"
   },
   {
     "revision": "c345a9a70d859fe9a979",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec7274ede1404bdea20c632d57f7424d",
     "url": "/whip-carrot-webpage/static/media/carrot9.ec7274ed.png"
+  },
+  {
+    "revision": "a895afc92a3616c9eccd506015126882",
+    "url": "/whip-carrot-webpage/static/media/chewon.a895afc9.jpg"
   },
   {
     "revision": "f325dd91c860c69b574ab204c0dd9045",
